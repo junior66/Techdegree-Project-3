@@ -1,0 +1,32 @@
+/* ========Base Styles */
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+    margin: auto;
+    border: 1px red solid;
+}
+
+header {
+    background: black;
+    padding: 20px 0;
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.header_bottom {
+    text-align: center;
+}
+
+/* .sub-headline {
+    max-width: 60%;
+    margin-bottom: 30px; */
+}
+
+
+
+
