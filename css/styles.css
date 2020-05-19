@@ -49,7 +49,10 @@ label, input {
     display: inline-block;
     margin-top: 30px;
     color: white;
-    background: rgb(48, 137, 209)
+    font-weight: bold;
+    background: rgb(48, 137, 209);
+    height: 50px;
+    width: 100%;
 }
 
 footer {
