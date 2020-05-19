@@ -33,10 +33,27 @@ h1 {
 
 label, input {
     display: inline-block;
+    margin-bottom: 10px;
 }
 
-label + input {
+#zip {
+    max-width: 25%;
+}
+
+.newsletter_format {
     margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.signup {
+    display: inline-block;
+    margin-top: 30px;
+    color: white;
+    background: rgb(48, 137, 209)
+}
+
+footer {
+    text-align: center;
 }
 
 
