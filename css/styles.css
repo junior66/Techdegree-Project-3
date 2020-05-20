@@ -2,11 +2,11 @@
 * {
     box-sizing: border-box;
     max-width: 100%;
-    border: 1px red solid;
+    /* border: 1px red solid; */
 }
 
 header {
-    background: black;
+    background: #002200;
     padding: 20px 0;
     margin-bottom: 10px;
 }
@@ -25,10 +25,25 @@ h1 {
 .sub-headline {
     margin-top: 10px;
     margin-bottom: 30px;
+    width: 80%;
+    margin: auto;
+}
+
+legend {
+    font-weight: bold;
+}
+
+input[placeholder="Required"] {
+    text-align: right;
 }
 
 .form-header {
     margin-bottom: 20px;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 label, input {
@@ -40,9 +55,46 @@ label, input {
     max-width: 25%;
 }
 
-.newsletter_format {
-    margin-top: 20px;
-    margin-bottom: 15px;
+.zip {
+    margin-top: 10px;
+}
+
+input[type="text"] {
+    width: 100%;
+    height: 30px;
+    background: lightgrey
+}
+
+input[type="email"] {
+    width: 100%;
+    height: 30px;
+    background: lightgrey
+}
+
+
+input[type="tel"] {
+    width: 100%;
+    height: 30px;
+    background: lightgrey
+}
+
+input[type="number"] {
+    height: 30px; 
+    background: lightgrey;
+}
+
+select[id='state'] {
+    background: lightgrey;
+    height: 30px;
+}
+
+.newsletter-format {
+    margin-bottom: 20px;
+}
+
+textarea[name="user_other_topics"] {
+    background: lightgrey;
+    margin-top: 15px;
 }
 
 .signup {
@@ -59,6 +111,49 @@ footer {
     text-align: center;
 }
 
+input, 
+label,
+footer {
+    font-weight: normal;
+}
+
+/* =====================================MEDIA QUERIES=========================================== */
+
+@media(min-width: 768px) {
+
+    .user {
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    .user input,
+    .user select {
+        flex-basis: 70%;
+        flex-grow: 1;
+        margin-bottom: 0;
+    }
+
+    .user label {
+        flex-basis: 25%;
+    }
+
+    .info br {
+        display: none;
+    }
+
+    textarea {
+        width: 100%;
+    }
+
+    body:not([.top-header]) {
+        width: 80%;
+    }
+
+
+
+
+}
 
 
 
