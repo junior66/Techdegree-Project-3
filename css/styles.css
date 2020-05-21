@@ -2,7 +2,6 @@
 * {
     box-sizing: border-box;
     max-width: 100%;
-    /* border: 1px red solid; */
 }
 
 header {
@@ -25,6 +24,7 @@ h1 {
 .sub-headline {
     margin-top: 10px;
     margin-bottom: 30px;
+    font-style: italic;
     width: 80%;
     margin: auto;
 }
@@ -105,6 +105,7 @@ select[id='state'] {
 textarea[name="user_other_topics"] {
     background: lightgrey;
     margin-top: 15px;
+    width: 100%;
 }
 
 .signup {
@@ -156,8 +157,7 @@ footer {
         display: none;
     }
 
-    .ex-head,
-    .newsletter-wrap {
+    .ex-head {
         max-width: 80%;
         margin: 0 auto;
     }
@@ -168,7 +168,7 @@ footer {
         color: black;
         background-color: orange;
         transition-property: background-color;
-        transition-delay: 1s;
+        transition-delay: .5s;
         transition-duration: 2s;
     }
 
