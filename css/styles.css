@@ -41,9 +41,14 @@ input[placeholder="Required"] {
     margin-bottom: 20px;
 }
 
-hr {
+.contact-line {
+    border-style: solid;
     margin-top: 20px;
     margin-bottom: 30px;
+}
+
+.newsletter-line {
+    border-style: solid;
 }
 
 label, input {
@@ -151,7 +156,8 @@ footer {
         display: none;
     }
 
-    .ex-head {
+    .ex-head,
+    .newsletter-wrap {
         max-width: 80%;
         margin: 0 auto;
     }

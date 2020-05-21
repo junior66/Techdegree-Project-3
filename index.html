@@ -16,7 +16,7 @@
         <p class="sub-headline">Get the latest news on how your code is doing right in your inbox</p>
     </div>
     <div class="ex-head">
-            <hr noshade="no" size="10px">
+            <hr class="contact-line">
         <form action="index.html" method="POST">
             
             <div class="info">
@@ -41,7 +41,7 @@
                             </div>
                             <div class="user">
                                 <label for="city">City</label> <br>
-                                <input type="text" id="city" name="user_city" placeholder="Required" required> <b>
+                                <input type="text" id="city" name="user_city" placeholder="Required" required> <br>
                             </div>
                             <div class="user">
                                 <label for="state">State</label> <br>
@@ -58,9 +58,10 @@
                 </fieldset>
             </div>  
             
-            <hr noshade="no" size="5px">
-            <fieldset>
-                <div class="newsletter">
+            <hr class=".newsletter-line">
+            
+            <div class="newsletter"></div>    
+                <fieldset>
                     <legend class="form-header">Newsletter</legend>
                     <Label>Select the newsletter you would like to receive</Label> <br>
                     <input type="checkbox" id="html_news" name="user_newsletter">
@@ -69,8 +70,10 @@
                     <label for="css_news">CSS News</label> <br>
                     <input type="checkbox" id="javasript_news" name="user_newsletter">
                     <label for="javasript_news">Javascript News</label> <br>
-                </div>
-                <div>        
+                </fieldset>
+            </div>
+            <div class="newsletter-wrap">
+                <fieldset>      
                     <legend class="newsletter-format">Newletter format</legend>
                     <input type="radio" id="html_format" name="user_format" value="HTML">
                     <label for="html_format">HTML</label> <br>
@@ -79,8 +82,8 @@
                     <label for="other_topics">Other topics you'd like to hear about</label> <br>
                     <textarea name="user_other_topics" id="other_topics" cols="35" rows="10"></textarea> <br>
                     <input type="submit" name="sign_up" value="Sign Up" class="signup">
-                </div>
-            </fieldset>
+                </fieldset> 
+            </div>
             <footer>Copyright The Code Review</footer>
         
         </form>
