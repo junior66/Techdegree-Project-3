@@ -86,10 +86,15 @@ input[type="number"] {
 select[id='state'] {
     background: lightgrey;
     height: 30px;
+    width: 100%;
 }
 
 .newsletter-format {
     margin-bottom: 20px;
+}
+
+.newsletter {
+    background: lightblue;
 }
 
 textarea[name="user_other_topics"] {
@@ -121,6 +126,10 @@ footer {
 
 @media(min-width: 768px) {
 
+    body {
+        font-family: 'Indie Flower', cursive;
+    }
+    
     .user {
         display: flex;
         align-items: center;
@@ -142,15 +151,24 @@ footer {
         display: none;
     }
 
+    .ex-head {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    input:focus,
+    select:focus,
+    textarea:focus {
+        color: black;
+        background-color: orange;
+        transition-property: background-color;
+        transition-delay: 1s;
+        transition-duration: 2s;
+    }
+
     textarea {
         width: 100%;
     }
-
-    /* body:not([.top-header]) {
-        width: 80%;
-    } */
-
-
 
 }
 
