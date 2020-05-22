@@ -3,6 +3,7 @@
     box-sizing: border-box;
     max-width: 100%;
     border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 header {
@@ -158,7 +159,8 @@ footer {
         display: none;
     }
 
-    .ex-head {
+    .ex-head,
+    .newsletter-wrap {
         max-width: 80%;
         margin: 0 auto;
     }
